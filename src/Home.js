@@ -4,7 +4,7 @@ import image from '../src/images/login.png'
 const Home = () => {
     return (
         <div className='h-[100vh] bg-[#679796] flex justify-center items-center'>
-            <div className='w-4/5 h-4/5 flex items-center rounded-lg'
+            <div className='md:w-4/5 md:h-4/5 h-4/5 w-11/12 flex md:flex-row flex-col items-center rounded-lg'
                 style={{
                     background: `linear-gradient(
     95deg,
@@ -13,10 +13,10 @@ const Home = () => {
     #ffba33 46%,
     #ffba33 100%
   )`}}>
-                <div className='w-1/2 '>
-                   <img src={image} className='h-1/2 w-4/5'/>
+                <div className='md:w-1/2 h-48 md:h-auto '>
+                   <img src={image} className='md:h-1/2 h-48 w-4/5'/>
                 </div>
-                <div className=' w-1/2 justify-center items-center flex flex-col'>
+                <div className=' md:w-1/2 w-11/12 justify-center items-center flex flex-col'>
                     <div className='bg-white  rounded-lg max-w-sm shadow-black/20 shadow-xl'>
                         <div className='flex justify-between py-6 rounded-t-lg px-4 bg-white shadow-black/10 shadow-lg'>
                             <h4 className='font-medium text-yellow-500'>ALREADY MEMBERS?</h4>
